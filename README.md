@@ -5,6 +5,7 @@
 - [ ] Graph Theory
     - [ ] Graph Traversal
         - [x] Breadth First Search
+            - [x] [SPOJ-Akbar](https://www.spoj.com/problems/AKBAR/)
         - [ ] Depth First Search
     - [ ] Connected components, bridges and articulation points
         - [ ] Finding connected components
