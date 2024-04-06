@@ -13,7 +13,7 @@
             - [x] [Number of Provinces](https://www.geeksforgeeks.org/problems/number-of-provinces/1)
     - [ ] Connected components, bridges and articulation points
         - [ ] Finding connected components
-            - [ ] [CCOMPS - Counting Components](https://www.spoj.com/problems/CCOMPS/)
+            - [x] [CCOMPS - Counting Components](https://www.spoj.com/problems/CCOMPS/)
         - [ ] Finding bridges in O(V + E)
         - [ ] Finding bridges online
         - [ ] Finding articulation points in O(V + E)
