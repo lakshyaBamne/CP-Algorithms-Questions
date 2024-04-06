@@ -4,11 +4,16 @@
 
 - [ ] Graph Theory
     - [ ] Graph Traversal
-        - [x] Breadth First Search
+        - [] Breadth First Search 
+            - [x] [Breadth First Search](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/0)
             - [x] [SPOJ-Akbar](https://www.spoj.com/problems/AKBAR/)
+            - [] [SPOJ-Minimum Knight moves](https://www.spoj.com/problems/NAKANJ/)
         - [ ] Depth First Search
+            - [x] [Depth First Search](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article)
+            - [x] [Number of Provinces](https://www.geeksforgeeks.org/problems/number-of-provinces/1)
     - [ ] Connected components, bridges and articulation points
         - [ ] Finding connected components
+            - [] [CCOMPS - Counting Components](https://www.spoj.com/problems/CCOMPS/)
         - [ ] Finding bridges in O(V + E)
         - [ ] Finding bridges online
         - [ ] Finding articulation points in O(V + E)
