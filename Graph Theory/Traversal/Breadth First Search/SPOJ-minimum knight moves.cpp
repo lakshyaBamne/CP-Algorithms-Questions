@@ -8,6 +8,7 @@
 #include<queue>
 #include<utility>
 #include<string>
+#include<limits.h>
 
 using namespace std;
 
@@ -66,9 +67,13 @@ int main(){
 
     vector<int> output;
 
+    int shortest_path;
+
     while(t--){
         // take input for the test case
         cin >> start >> end;
+
+        shortest_path = INT_MAX;
 
         // first we need to get the row and col number in appropriate form
         // for source and end destination
@@ -91,8 +96,9 @@ int main(){
 
             // if we have reached the destination we should stop BFS and return the level
             if(to_process.first == dst){
-                output.push_back(to_process.second);
-                break;
+                if(to_process.second < shortest_path){
+                    shortest_path = to_process.second;
+                }
             }
 
             // get the list of valid moves from a given cell
@@ -106,6 +112,8 @@ int main(){
             }
 
         }
+
+        output.push_back(shortest_path);
 
     }
 
